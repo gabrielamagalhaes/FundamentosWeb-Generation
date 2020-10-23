@@ -1,9 +1,13 @@
 /*Estilos da página index.html*/
-. center {
+.center {
     text-align: center;
 }
 
-. container {
+.justyfy {
+    text-align: justify;
+}
+
+.container {
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -32,7 +36,22 @@
     border-radius: 50%;
 }
 
-.wh {
+.wh-400 {
     width: 300px;
     height: 300px;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+/*Estilos da página contato.html*/
+
+.ml-50 {
+    margin-left: 50px;
 }
